@@ -1,0 +1,17 @@
+.representa{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    margin: 20px;
+    
+}
+.representa::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 0px 0px -5px;
+    height: 3px;
+    width: 128px;
+    background: linear-gradient(135deg, #62A074, #E2953A);
+}

@@ -1,0 +1,117 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=K2D:wght@100;200&display=swap');
+
+body{
+  background-image: "../img/background.png";
+}
+
+  .container{
+    background-color: #F3C193;
+    border-radius: 40px;
+    width: 36%;
+    height: 40rem;
+    margin-top: 4rem;
+    border: 0.1px solid #F3C193;
+    display: solid;
+}
+
+.borda{
+  
+  border-radius: 30px;
+  border: 6px solid white;
+  margin: 20px;
+  height: 36.7em;
+}
+
+#titulo{
+  font-family: 'Lexend', sans-serif;
+    font-size: 30px;
+    color: #526A65;
+}
+
+#subtitulo{
+  font-family: 'Lexend', sans-serif;
+  font-size: 30px;
+  color: #526A65;
+  margin-bottom: 20px;
+}
+
+#logo{
+    width: 40%;
+}
+
+.logo{
+  margin-top: -40px;
+}
+
+.campos{
+  margin-top: -40px;
+  position: relative;
+}
+
+#login, #senha{ 
+  height: 40px;
+  width: 60%;
+  border-radius: 18px;
+  border: 2px solid #526A65;
+  font-family: 'K2D', sans-serif;
+  margin: 10px;
+  cursor: text;
+  font-size: 23px;
+  padding-left: 85px;
+  outline: 0;
+}
+
+#entrar{
+  height: 60px;
+  width: 170px;
+  margin: 10px;
+  color: white;
+  background-color: #62A074;
+  border: none;
+  border-radius: 28px;
+  font-family: 'K2D', sans-serif;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.agr-login{
+  position: relative;
+}
+
+.agr-login i{
+  position: absolute;
+  left: 17%;
+  top: 35%;
+  color: #F1B279;
+}
+
+.agr-senha{
+  position: relative;
+}
+
+#cadeado{
+  position: absolute;
+  left: 17%;
+  top: 35%;
+  color: #F1B279;
+}
+
+#olho{
+  position: absolute;
+  left: 80%;
+  top: 38%;
+  color: #62A074;
+  cursor: pointer;
+}
+
+.links-fixos{
+  /*você pode alterar largura usando width*/
+  padding:5px;
+  background:rgba(0,0,0,0.2);
+  position:fixed;
+  top:200px;/*altura da classe*/
+}
+
+

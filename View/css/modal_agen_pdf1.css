@@ -1,0 +1,62 @@
+.grupo-modal_agen_pdf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.estrutura_agen_pdf {
+    position: fixed;
+    z-index: 10;
+    width: auto;
+    height: auto;
+    top: 50vh;
+    background-color: white;
+    transform: translateY(-25%);
+    padding: 1rem;
+    border: 1px solid silver;
+    box-shadow: 4px 4px 8px #0002;
+    border-radius: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 200ms ease-out;
+    margin: 10px;
+}
+
+.estrutura_agen_pdf.visivel {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(-50%);
+    padding: 0;
+}
+
+.estrutura_agen_pdf>.corpo-modal_agen_pdf{
+    padding: 1em 0;
+}
+
+span.fechar-modal_agen_pdf{
+    background-color: #0001;
+    border-radius: 50%;
+    display: flex;
+    width: 1.25em;
+    height: 1.25em;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#mascara-1,
+#mascara-2 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.estrutura_agen_pdf.visivel~#mascara-1,
+.estrutura_agen_pdf.visivel~#mascara-2 {
+    opacity: 0.1;
+    pointer-events: initial;
+}

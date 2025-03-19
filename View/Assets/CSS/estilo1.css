@@ -1,0 +1,11 @@
+.suporte {
+    position: fixed;
+      top: 10px;
+      right: 20px;
+      height: 60px;
+      width: 60px;
+      background-color: #F3C193; 
+      border-radius:30px; 
+    border:none;
+     cursor: pointer;
+  }
